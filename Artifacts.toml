@@ -1,0 +1,60 @@
+[[Qemu_static]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "0c0fe9fc8cc4e2695a56e3d96ec68f47ff4d1648"
+libc = "glibc"
+os = "linux"
+
+    [[Qemu_static.download]]
+    sha256 = "f2b73b25ecaab4f031a986c82f5d66ff9b077380e51a61b98a8a32a37d836574"
+    url = "https://github.com/JuliaBinaryWrappers/Qemu_static_jll.jl/releases/download/Qemu_static-v7.1.0+0/Qemu_static.v7.1.0.i686-linux-gnu-cxx03.tar.gz"
+[[Qemu_static]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0c0fe9fc8cc4e2695a56e3d96ec68f47ff4d1648"
+libc = "glibc"
+os = "linux"
+
+    [[Qemu_static.download]]
+    sha256 = "f2b73b25ecaab4f031a986c82f5d66ff9b077380e51a61b98a8a32a37d836574"
+    url = "https://github.com/JuliaBinaryWrappers/Qemu_static_jll.jl/releases/download/Qemu_static-v7.1.0+0/Qemu_static.v7.1.0.i686-linux-gnu-cxx11.tar.gz"
+[[Qemu_static]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ce33243f9b5b00a0c2e9534965619c46dc376b21"
+libc = "glibc"
+os = "linux"
+
+    [[Qemu_static.download]]
+    sha256 = "7de75bc16c70f5ff3c46090d1dd9d9de559327f3a72919b3624b45940a8ba6ab"
+    url = "https://github.com/JuliaBinaryWrappers/Qemu_static_jll.jl/releases/download/Qemu_static-v7.1.0+0/Qemu_static.v7.1.0.x86_64-linux-gnu-cxx03.tar.gz"
+[[Qemu_static]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ce33243f9b5b00a0c2e9534965619c46dc376b21"
+libc = "glibc"
+os = "linux"
+
+    [[Qemu_static.download]]
+    sha256 = "7de75bc16c70f5ff3c46090d1dd9d9de559327f3a72919b3624b45940a8ba6ab"
+    url = "https://github.com/JuliaBinaryWrappers/Qemu_static_jll.jl/releases/download/Qemu_static-v7.1.0+0/Qemu_static.v7.1.0.x86_64-linux-gnu-cxx11.tar.gz"
+[[Qemu_static]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e6b0f9e4b76a688b67addb10b543f58761454b18"
+libc = "musl"
+os = "linux"
+
+    [[Qemu_static.download]]
+    sha256 = "abdbd3ef3f968e6fba01e120f1a8c51015e4642033c608ed91fa17ec61fe7b07"
+    url = "https://github.com/JuliaBinaryWrappers/Qemu_static_jll.jl/releases/download/Qemu_static-v7.1.0+0/Qemu_static.v7.1.0.x86_64-linux-musl-cxx03.tar.gz"
+[[Qemu_static]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e6b0f9e4b76a688b67addb10b543f58761454b18"
+libc = "musl"
+os = "linux"
+
+    [[Qemu_static.download]]
+    sha256 = "abdbd3ef3f968e6fba01e120f1a8c51015e4642033c608ed91fa17ec61fe7b07"
+    url = "https://github.com/JuliaBinaryWrappers/Qemu_static_jll.jl/releases/download/Qemu_static-v7.1.0+0/Qemu_static.v7.1.0.x86_64-linux-musl-cxx11.tar.gz"
