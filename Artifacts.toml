@@ -1,4 +1,68 @@
 [[Qemu_static]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f57280073ff1e40c5528f6a1bc0239d3b22f1ae7"
+libc = "glibc"
+os = "linux"
+
+    [[Qemu_static.download]]
+    sha256 = "f9d57f5e5071c80f77139a1deccf39ca8f4271c51cf2ed9a635572d69896521c"
+    url = "https://github.com/JuliaBinaryWrappers/Qemu_static_jll.jl/releases/download/Qemu_static-v7.1.0+1/Qemu_static.v7.1.0.aarch64-linux-gnu-cxx03.tar.gz"
+[[Qemu_static]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f57280073ff1e40c5528f6a1bc0239d3b22f1ae7"
+libc = "glibc"
+os = "linux"
+
+    [[Qemu_static.download]]
+    sha256 = "f9d57f5e5071c80f77139a1deccf39ca8f4271c51cf2ed9a635572d69896521c"
+    url = "https://github.com/JuliaBinaryWrappers/Qemu_static_jll.jl/releases/download/Qemu_static-v7.1.0+1/Qemu_static.v7.1.0.aarch64-linux-gnu-cxx11.tar.gz"
+[[Qemu_static]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "8988443d5b88367c912241b390baf5f21722bd78"
+libc = "glibc"
+os = "linux"
+
+    [[Qemu_static.download]]
+    sha256 = "0aaae40c95eb06b3e588180c40a89518d11e5526ce5a74fc558002ac97a77544"
+    url = "https://github.com/JuliaBinaryWrappers/Qemu_static_jll.jl/releases/download/Qemu_static-v7.1.0+1/Qemu_static.v7.1.0.armv6l-linux-gnueabihf-cxx03.tar.gz"
+[[Qemu_static]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "8988443d5b88367c912241b390baf5f21722bd78"
+libc = "glibc"
+os = "linux"
+
+    [[Qemu_static.download]]
+    sha256 = "0aaae40c95eb06b3e588180c40a89518d11e5526ce5a74fc558002ac97a77544"
+    url = "https://github.com/JuliaBinaryWrappers/Qemu_static_jll.jl/releases/download/Qemu_static-v7.1.0+1/Qemu_static.v7.1.0.armv6l-linux-gnueabihf-cxx11.tar.gz"
+[[Qemu_static]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "b44e3798f72d1daf34b2c14d90ea9afb4543965b"
+libc = "glibc"
+os = "linux"
+
+    [[Qemu_static.download]]
+    sha256 = "e15c34c2cd42970cd56771a7b0de6d9530e973e78e8f42179d7ed9798e761cbc"
+    url = "https://github.com/JuliaBinaryWrappers/Qemu_static_jll.jl/releases/download/Qemu_static-v7.1.0+1/Qemu_static.v7.1.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[Qemu_static]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b44e3798f72d1daf34b2c14d90ea9afb4543965b"
+libc = "glibc"
+os = "linux"
+
+    [[Qemu_static.download]]
+    sha256 = "e15c34c2cd42970cd56771a7b0de6d9530e973e78e8f42179d7ed9798e761cbc"
+    url = "https://github.com/JuliaBinaryWrappers/Qemu_static_jll.jl/releases/download/Qemu_static-v7.1.0+1/Qemu_static.v7.1.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[Qemu_static]]
 arch = "i686"
 cxxstring_abi = "cxx03"
 git-tree-sha1 = "0c0fe9fc8cc4e2695a56e3d96ec68f47ff4d1648"
@@ -7,7 +71,7 @@ os = "linux"
 
     [[Qemu_static.download]]
     sha256 = "f2b73b25ecaab4f031a986c82f5d66ff9b077380e51a61b98a8a32a37d836574"
-    url = "https://github.com/JuliaBinaryWrappers/Qemu_static_jll.jl/releases/download/Qemu_static-v7.1.0+0/Qemu_static.v7.1.0.i686-linux-gnu-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/Qemu_static_jll.jl/releases/download/Qemu_static-v7.1.0+1/Qemu_static.v7.1.0.i686-linux-gnu-cxx03.tar.gz"
 [[Qemu_static]]
 arch = "i686"
 cxxstring_abi = "cxx11"
@@ -17,7 +81,27 @@ os = "linux"
 
     [[Qemu_static.download]]
     sha256 = "f2b73b25ecaab4f031a986c82f5d66ff9b077380e51a61b98a8a32a37d836574"
-    url = "https://github.com/JuliaBinaryWrappers/Qemu_static_jll.jl/releases/download/Qemu_static-v7.1.0+0/Qemu_static.v7.1.0.i686-linux-gnu-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/Qemu_static_jll.jl/releases/download/Qemu_static-v7.1.0+1/Qemu_static.v7.1.0.i686-linux-gnu-cxx11.tar.gz"
+[[Qemu_static]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "b547a3e4a9cb860e8bf8f3a1dd1062dcf485ab29"
+libc = "glibc"
+os = "linux"
+
+    [[Qemu_static.download]]
+    sha256 = "b285a0c9b5bb23ee9de7169167e9c6859d2b2942e4211b8a9852a6c51860d8db"
+    url = "https://github.com/JuliaBinaryWrappers/Qemu_static_jll.jl/releases/download/Qemu_static-v7.1.0+1/Qemu_static.v7.1.0.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[Qemu_static]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b547a3e4a9cb860e8bf8f3a1dd1062dcf485ab29"
+libc = "glibc"
+os = "linux"
+
+    [[Qemu_static.download]]
+    sha256 = "b285a0c9b5bb23ee9de7169167e9c6859d2b2942e4211b8a9852a6c51860d8db"
+    url = "https://github.com/JuliaBinaryWrappers/Qemu_static_jll.jl/releases/download/Qemu_static-v7.1.0+1/Qemu_static.v7.1.0.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[Qemu_static]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
@@ -27,7 +111,7 @@ os = "linux"
 
     [[Qemu_static.download]]
     sha256 = "7de75bc16c70f5ff3c46090d1dd9d9de559327f3a72919b3624b45940a8ba6ab"
-    url = "https://github.com/JuliaBinaryWrappers/Qemu_static_jll.jl/releases/download/Qemu_static-v7.1.0+0/Qemu_static.v7.1.0.x86_64-linux-gnu-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/Qemu_static_jll.jl/releases/download/Qemu_static-v7.1.0+1/Qemu_static.v7.1.0.x86_64-linux-gnu-cxx03.tar.gz"
 [[Qemu_static]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
@@ -37,24 +121,4 @@ os = "linux"
 
     [[Qemu_static.download]]
     sha256 = "7de75bc16c70f5ff3c46090d1dd9d9de559327f3a72919b3624b45940a8ba6ab"
-    url = "https://github.com/JuliaBinaryWrappers/Qemu_static_jll.jl/releases/download/Qemu_static-v7.1.0+0/Qemu_static.v7.1.0.x86_64-linux-gnu-cxx11.tar.gz"
-[[Qemu_static]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "e6b0f9e4b76a688b67addb10b543f58761454b18"
-libc = "musl"
-os = "linux"
-
-    [[Qemu_static.download]]
-    sha256 = "abdbd3ef3f968e6fba01e120f1a8c51015e4642033c608ed91fa17ec61fe7b07"
-    url = "https://github.com/JuliaBinaryWrappers/Qemu_static_jll.jl/releases/download/Qemu_static-v7.1.0+0/Qemu_static.v7.1.0.x86_64-linux-musl-cxx03.tar.gz"
-[[Qemu_static]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "e6b0f9e4b76a688b67addb10b543f58761454b18"
-libc = "musl"
-os = "linux"
-
-    [[Qemu_static.download]]
-    sha256 = "abdbd3ef3f968e6fba01e120f1a8c51015e4642033c608ed91fa17ec61fe7b07"
-    url = "https://github.com/JuliaBinaryWrappers/Qemu_static_jll.jl/releases/download/Qemu_static-v7.1.0+0/Qemu_static.v7.1.0.x86_64-linux-musl-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/Qemu_static_jll.jl/releases/download/Qemu_static-v7.1.0+1/Qemu_static.v7.1.0.x86_64-linux-gnu-cxx11.tar.gz"
